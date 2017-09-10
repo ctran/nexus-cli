@@ -1,0 +1,30 @@
+{
+  "name": "nexus-cli",
+  "version": "0.0.1",
+  "description": "Set up credentials to access Nexus 2.x repository",
+  "main": "index.js",
+  "bin": {
+    "nexus": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"WARN: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctran/nexus-cli.git"
+  },
+  "author": "Cuong Tran <cuong.tran@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ctran/nexus-cli/issues"
+  },
+  "homepage": "https://github.com/ctran/nexus-cli#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "colors": "^1.1.2",
+    "commander": "^2.11.0",
+    "debug": "^3.0.1",
+    "npm": "^3.1.0 || ^4.0.0 || ^5.0.0"
+  }
+}
