@@ -82,7 +82,7 @@ function verifyCredentials(repoUrl, creds) {
 
 		const options = url.parse(repoUrl);
 		const username = encodeURIComponent(creds.username.trim());
-		const password = encodeURIComponent(creds.password.trim());
+		const password = creds.password.trim();
 		options.auth = username + ':' + password
 
 		const { request } = require(options.protocol == 'https:' ? 'https' : 'http');
