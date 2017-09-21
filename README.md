@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ctran/nexus-cli.svg?branch=master)](https://travis-ci.org/ctran/nexus-cli)
+
 # nexus-cli
 Set up credentials to access Nexus 2.x repository
 
@@ -15,4 +17,3 @@ Set up credentials to access Nexus 2.x repository
  Examples:
 
     $ nexus login http://localhost:8081/nexus/content/groups/npm-all
-
