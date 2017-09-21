@@ -1,30 +1,7 @@
 # nexus-cli
 Set up credentials to access Nexus 2.x repository
 
-
-  Usage: nexus [options] [command]
-
-
-  Options:
-
-    -V, --version  output the version number
-    -h, --help     output usage information
-
-
-  Commands:
-
-    login [options] <url>  set up ~/.npmrc file to access a Nexus repository
-
-  Examples:
-
-    $ nexus login http://localhost:8081/nexus/content/groups/npm-all
-
-node index.js login --help
-
   Usage: login [options] <url>
-
-  set up ~/.npmrc file to access a Nexus repository
-
 
   Options:
 
@@ -34,3 +11,8 @@ node index.js login --help
     --scope <scope>
     --always-auth
     -h, --help                 output usage information
+    
+ Examples:
+
+    $ nexus login http://localhost:8081/nexus/content/groups/npm-all
+
